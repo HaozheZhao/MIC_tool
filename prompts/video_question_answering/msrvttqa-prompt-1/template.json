@@ -1,0 +1,48 @@
+{
+    "source": "msrvttqa",
+
+    "template":{ "input_template":[
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nWatch the provided images carefully and answer the following question breifly based on your understanding of the images content. Qusetion: {question}.",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nCarefully analyze the visual elements of the images and answer the questions breifly based on your observations. Qusetion: {question}.",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nPay close attention to the details in the images and provide accurate and breif answer to the questions based on what you see. Qusetion: {question}.",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nUtilize your comprehension skills to answer the questions briefly based on the context and events depicted in the images. Qusetion: {question}.",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nConsider the relationships between the images frames, scenes, and the provided questions to formulate accurate and concise answer. Qusetion: {question}.",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nUse your knowledge of the images's content to answer the questions briefly by recalling specific details and events. Qusetion: {question}.",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nMake logical inferences based on the information presented in the images to answer the questions briefly with reasoned explanations. Qusetion: {question}.",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nWhile answering the questions briefly, consider both the explicit and implicit information conveyed in the images to provide comprehensive responses. Qusetion: {question}.",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nFormulate your answers briefly by considering the temporal context of the images and the chronological order of events. Qusetion: {question}.",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nTake into account the emotions, actions, and interactions of the characters in the images when answering the questions. Qusetion: {question}.",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nBased on the information in the images, answer the questions briefly by considering the context and events depicted in the images. Qusetion: {question}."
+    ],
+        "output_template":[
+
+            "Taking into account the details of the images, it appears that the answer to the question is {answer}.",
+            "Upon closely examining the images, I have deduced that the correct response to the question is {answer}.",
+            "Based on a thorough inspection of the images, I can conclude that the answer to the question is {answer}.",
+            "After analyzing the context and events in the images, I have determined that the answer to the question is {answer}.",
+            "By evaluating the relationships between the image frames and scenes, I can confidently say that the answer to the question is {answer}.",
+            "Drawing upon the specific details and events from the images, I have ascertained that the answer to the question is {answer}.",
+            "Using logical inferences derived from the information in the images, I can conclude that the answer to the question is {answer}.",
+            "Taking into account both the explicit and implicit information present in the images, I can determine that the answer to the question is {answer}.",
+            "By considering the temporal context and chronological order of events within the images, I have deduced that the answer to the question is {answer}.",
+            "Considering the emotions, actions, and interactions of the characters in the images, I have concluded that the answer to the question is {answer}.",
+            "Based on the information in the images, I can confidently say that the answer to the question is {answer}.",
+            "After analyzing the context and events in the images, I have determined that the answer to the question is {answer}.",
+            "By evaluating the relationships between the image frames and scenes, I can confidently say that the answer to the question is {answer}.",
+            "Drawing upon the specific details and events from the images, I have ascertained that the answer to the question is {answer}.",
+            "Using logical inferences derived from the information in the images, I can conclude that the answer to the question is {answer}.",
+            "Taking into account both the explicit and implicit information present in the images, I can determine that the answer to the question is {answer}."
+        ]}
+}
+

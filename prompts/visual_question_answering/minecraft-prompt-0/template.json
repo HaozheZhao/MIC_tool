@@ -1,0 +1,6 @@
+{
+    "source": "minecraft",
+    "template": [
+        "image 0 is <image0>图. Please refer to image 0 when answering the following questions: {question} Answer:"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+  "image_generation": "Generate images that are semantically related to a given text input.",
+  "visual_question_answering": "Answer the question based on an image.",
+  "image_captioning": "Describe the content of an image in words.",
+  "image_classification": "Classify the image by assigning it to a specific label.",
+  "video_question_answering": "Answer the question based on images(vides).",
+  "visual_dialog": "Answer the question based on dialog.",
+  "phrase_grounding": "Answer the question based on pointed location of the image."
+  
+}

@@ -1,0 +1,8 @@
+{
+    "source": "llava",
+    "template": [
+        "image 0 is <image0>图 \n{question}\nAnswer: ",
+        "image 0: <image0>图 \n{question}\nAnswer: "
+    ]
+}
+

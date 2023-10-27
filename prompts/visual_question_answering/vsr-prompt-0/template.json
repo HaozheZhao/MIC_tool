@@ -1,0 +1,6 @@
+{
+    "source": "vsr",
+    "template": [
+        "image 0 is <image0>图. Caption is {question} Determine whether the caption accurately describes the spatial relation between the two objects in the image 0. True or False?"
+    ]
+}

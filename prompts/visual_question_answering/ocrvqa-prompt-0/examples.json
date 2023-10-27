@@ -1,0 +1,37 @@
+{
+    "name": "visual_question_answering",
+    "positive": [
+          {
+              "input": [
+                  {
+                      "text": "input: ",
+                      "image": ""
+                  }
+              ],
+              "output": [
+                  {
+                      "text": ""
+                  }
+              ],
+              "explain": "",
+              "id": "01"
+          }
+    ],
+    "negative": [
+          {
+              "input": [
+                  {
+                      "text": "input: ",
+                      "image": ""
+                  }
+              ],
+              "output": [
+                  {
+                      "text": ""
+                  }
+              ],
+              "explain": "",
+              "id": "01"
+          }
+    ]
+  }

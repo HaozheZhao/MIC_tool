@@ -1,0 +1,35 @@
+{
+  "name": "wikiart",
+  "positive": [
+        {
+            "input": [
+                {
+                    "text": "Vincent van Gogh's picture in the style of Impressionism"
+                }
+            ],
+            "output": [
+                {
+                    "image": "./data/wikiart/img/Realism/vincent-van-gogh_pine-trees-in-the-fen-1884.jpg"
+                }
+            ],
+            "explain": "This picture is Vincent van Gogh's work. Additionally, the style of this picture is impressionism.",
+            "id": "01"
+        }
+  ],
+  "negative": [
+        {
+            "input": [
+                {
+                    "text": "Vincent van Gogh's picture in the style of Impressionism"
+                }
+            ],
+            "output": [
+                {
+                    "image": "./data/wikiart/img/Baroque/rembrandt_the-angel-appearing-to-the-shepherds-1634.jpg"
+                }
+            ],
+            "explain": "It is Rembrandt's picture in the style of realism. It is not Vincent van Gogh's work.",
+            "id": "01"
+        }
+  ]
+}

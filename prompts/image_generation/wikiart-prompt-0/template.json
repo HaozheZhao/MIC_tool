@@ -1,0 +1,15 @@
+{
+    "source": "wikiart",
+    "template": [
+        "image 0 is <image0>图.\nPlease provide information about the artist, genre, and style of this artwork.",
+        "image 0 is <image0>图.\nI would like to know the artist's name, the genre, and the specific style depicted in this painting.",
+        "image 0 is <image0>图.\nCould you identify the artistic genre, the artist, and the style portrayed in this artwork?",
+        "image 0 is <image0>图.\nIn this painting, which genre does it belong to, who is the artist, and what is the predominant style?",
+        "image 0 is <image0>图.\nTell me about the artist, genre, and style associated with this particular artwork.",
+        "image 0 is <image0>图.\nThis piece of art seems intriguing. Can you provide details about the genre, the artist, and the style it represents?",
+        "image 0 is <image0>图.\nIdentify the genre, artist, and style of this captivating artwork, please.",
+        "image 0 is <image0>图.\nI'm curious to learn about the artist's name, the genre, and the distinctive style showcased in this artwork.",
+        "image 0 is <image0>图.\nCould you enlighten me about the genre, artist, and the artistic style that characterizes this beautiful piece?",
+        "image 0 is <image0>图.\nIn terms of genre, artist, and style, what information can you provide regarding this fascinating artwork?"
+    ]
+}

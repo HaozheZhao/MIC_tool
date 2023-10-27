@@ -1,0 +1,26 @@
+dataset:
+  name: "funqa"
+  subset_size: -1
+  prompt: 1
+  
+  data_path: "./data/funqa"
+  modalities: ["image", "text"]
+  types: ["image",'answer']
+  url:
+    vision: "https://drive.google.com/drive/folders/1MBBhlkP83VMKS2Qe0SmFfzkHhMpIG5wf?usp=sharing"
+    language: "https://drive.google.com/drive/folders/1MBBhlkP83VMKS2Qe0SmFfzkHhMpIG5wf?usp=sharing"
+    prompt: "https://arxiv.org/pdf/2110.08484.pdf"
+task:
+  name: "video_question_answering"
+  template_path: "./prompts/video_question_answering/funqa-prompt-1/template.json"
+  example_path: "./prompts/video_question_answering/funqa-prompt-1/examples.json"
+  definition: ""
+  path: "https://coco.org/"
+  input: ["text", "image"]
+  output: ["answer"]
+metadata:
+  path: "./metadata/all_task.json"
+output:
+  path: "./tasks/"
+contact:
+  contributor: ["Haozhezhao"]

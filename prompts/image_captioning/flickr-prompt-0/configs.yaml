@@ -1,0 +1,25 @@
+dataset:
+  name: "flickr"
+  prompt: 0
+  subset_size: -1
+  data_path: "./data/flickr"
+  modalities: ["image", "text"]
+  types: ["image"]
+  url:
+    vision: "https://drive.google.com/drive/folders/1MBBhlkP83VMKS2Qe0SmFfzkHhMpIG5wf?usp=sharing"
+    language: "https://drive.google.com/drive/folders/1MBBhlkP83VMKS2Qe0SmFfzkHhMpIG5wf?usp=sharing"
+    prompt: "https://arxiv.org/pdf/2110.08484.pdf"
+task:
+  name: "image_captioning"
+  template_path: "./prompts/image_captioning/flickr-prompt-0/template.json"
+  example_path: "./prompts/image_captioning/flickr-prompt-0/examples.json"
+  definition: ""
+  path: "https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset"
+  input: ["text", "image"]
+  output: ["caption"]
+metadata:
+  path: "./metadata/all_task.json"
+output:
+  path: "./tasks/"
+contact:
+  contributor: ["Anonymous"]

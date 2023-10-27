@@ -1,0 +1,26 @@
+{
+    "source": "refcoco",
+    "template":{ "input_template":[         
+        "image 0 is <image0>图.\nGiven image 0, create a descriptive caption that accurately represents the content of the image, including the item located in the {quadrant} of the image.",
+        "Use your knowledge of the image 0 and the {quadrant} location to generate a detailed and accurate caption that captures the essence of the scene. Keep in mind that image 0 is <image0>图.",
+        "image 0 is <image0>图.\n When writing your caption, be sure to include specific details about the item located in the {quadrant} of the image 0, such as its size, shape, color, and position.",
+        "Think about the intended audience for your caption and use appropriate language and tone. Consider the context of the image: <image0>图 and the {quadrant} location when creating your caption, and make sure that it accurately reflects the content of the image.",
+        "Your caption should be concise and to the point, while still capturing the essence of the image 0 and the item located in the {quadrant} of the image. Avoid including irrelevant information in your caption that detracts from the main content of the image. Remember that image 0 is <image0>图.\n",
+        "image 0 is <image0>图.\n Check your caption for accuracy and grammatical errors before submitting. Be creative in your approach to briefly captioning the image and the item located in the {quadrant}.",
+        "image 0 is <image0>图.\n Given image 0, describe the item in the {quadrant} of the image.",
+        "image 0 is <image0>图.\n Using image 0, provide a brief caption for the object located in the {quadrant} of the image.",
+        "For image 0: <image0>图, describe the object in the {quadrant} of the image in short.",
+        "Given the image 0: <image0>图. Generate a brief description for the item located in the {quadrant} of the image.",
+        "image 0 is <image0>图.\n Using the provided image 0, describe the object located in the {quadrant} of the image briefly."
+        ],
+        "output_template":[
+            "Given the inquiry and the visual content presented, I'd venture to say that the item in the {quadrant} of the image depicts {answer}.",
+            "Analyzing both the question and the visual element, item in the {quadrant} of the image is {answer}.",
+            "Piecing together the context from the question and the image, I'd conclude that we're looking at {answer}.",
+            "Drawing from the question and the image, my assessment is that the {quadrant} of the image illustrates {answer}.",
+            "Merging insights from the question and the depicted location of the image, I'd deduce that the image illustrates {answer}.",
+            "Given the question and the image, I'd say that the item in the {quadrant} of the image is {answer}.",
+            "Based on the question and the image, I'd say that the item in the {quadrant} of the image is {answer}.",
+            "Based on the question and the {quadrant} of the image, it can be inferred that the item is {answer}."
+        ]}
+}

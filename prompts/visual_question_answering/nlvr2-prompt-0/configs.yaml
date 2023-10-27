@@ -1,0 +1,25 @@
+dataset:
+  name: "nlvr2"
+  subset_size: -1
+  data_path: "./data/nlvr2"
+  prompt: 0
+  modalities: ["image", "text"]
+  types: ["image", "question"]
+  url:
+    vision: "https://drive.google.com/drive/folders/1MBBhlkP83VMKS2Qe0SmFfzkHhMpIG5wf?usp=sharing"
+    language: "https://drive.google.com/drive/folders/1MBBhlkP83VMKS2Qe0SmFfzkHhMpIG5wf?usp=sharing"
+    prompt: "https://arxiv.org/pdf/1811.00491.pdf"
+task:
+  name: "visual_question_answering"
+  template_path: "./prompts/visual_question_answering/nlvr2-prompt-0/template.json"
+  example_path: "./prompts/visual_question_answering/nlvr2-prompt-0/examples.json"
+  definition: ""
+  path: ""
+  input: ["text", "image"]
+  output: ["answer"]
+metadata:
+  path: "./metadata/all_task.json"
+output:
+  path: "./tasks/"
+contact:
+  contributor: ["Anonymous"]

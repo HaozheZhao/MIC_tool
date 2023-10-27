@@ -1,0 +1,16 @@
+{
+    "source": "gqa",
+    "template": [
+       "image 0 is <image0>图. For the question, carefully examine the image and use your knowledge to determine the correct answer. Question: {question} Answer:",
+       "image 0 is <image0>图. Given the picture <image0>, pay attention to the wording of question and answer the following question: {question} Answer: ",
+       "Read the question carefully and look at image 0 labeled <image0>图. Use your intuition and common sense when answering the question: {question}",
+       "Consider all of the information in image 0 labeled <image0>图 when answering the question: {question}",
+       "The image 0: <image0>图 is the primary source of information for answering the questions. Please refer to it carefully when answering question: {question} Answer:",
+       "Pay close attention to the details in image 0: <image0>图, as they may provide important information for answering the questions. Question:{question} Answer:",
+        "image 0 is <image0>图. Make sure your answer is relevant to the question and the image 0. Question:{question} Answer:",
+        "image 0 is <image0>图. Do not provide answers based on assumptions or personal opinions; only use the information presented in the image 0 and the question. Question:{question} Answer:",
+        "Look at image 0 labeled <image0>图 carefully and read question: {question}. Try to understand what is being asked before selecting an answer.",
+        "image 0 is <image0>图. Consider all of the information in image 0 labeled <image0> when answering question. Look at objects, colors, shapes, and other details that may be relevant to question: {question} Answer:"
+        
+    ]
+}

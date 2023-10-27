@@ -1,0 +1,37 @@
+{
+  "name": "image_captioning",
+  "positive": [
+        {
+            "input": [
+                {
+                    "text": "Based on the photo,Generate an image caption to describe the photo:",
+                    "image": ""
+                }
+            ],
+            "output": [
+                {
+                    "text": ""
+                }
+            ],
+            "explain": "",
+            "id": "01"
+        }
+  ],
+  "negative": [
+        {
+            "input": [
+                {
+                    "text": "Based on the photo,Generate an image caption to describe the photo:",
+                    "image": ""
+                }
+            ],
+            "output": [
+                {
+                    "text": ""
+                }
+            ],
+            "explain": "",
+            "id": "01"
+        }
+  ]
+}

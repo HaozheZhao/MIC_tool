@@ -1,0 +1,25 @@
+dataset:
+  name: "miniimage"
+  prompt: 1
+  subset_size: -1
+  data_path: "./data/miniimage"
+  modalities: ["image", "text"]
+  types: ["image", "answer"]
+  url:
+    vision: "https://github.com/google-research/meta-dataset"
+    language: "https://github.com/google-research/meta-dataset"
+    prompt: "https://github.com/hushell/pmf_cvpr22"
+task:
+  name: "image_classification"
+  template_path: "./prompts/image_classification/miniimage-prompt-1/template.json"
+  example_path: "./prompts/image_classification/miniimage-prompt-1/examples.json"
+  definition: ""
+  path: "https://github.com/hushell/pmf_cvpr22"
+  input: ['text',"image"]
+  output: ["answer"]
+metadata:
+  path: "./metadata/all_task.json"
+output:
+  path: "./tasks/"
+contact:
+  contributor: ["Anonymous"]

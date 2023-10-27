@@ -1,0 +1,25 @@
+dataset:
+  name: "okvqa"
+  subset_size: -1
+  prompt: 0
+  data_path: "./data/okvqa"
+  modalities: ["image", "text"]
+  types: ["image", "question", "answer"]
+  url:
+    vision: "https://drive.google.com/drive/folders/1MBBhlkP83VMKS2Qe0SmFfzkHhMpIG5wf?usp=sharing"
+    language: "https://drive.google.com/drive/folders/1MBBhlkP83VMKS2Qe0SmFfzkHhMpIG5wf?usp=sharing"
+    prompt: "https://arxiv.org/pdf/2110.08484.pdf"
+task:
+  name: "visual_question_answering"
+  template_path: "./prompts/visual_question_answering/okvqa-prompt-0/template.json"
+  example_path: "./prompts/visual_question_answering/okvqa-prompt-0/examples.json"
+  definition: ""
+  path: "https://okvqa.allenai.org/"
+  input: ["text", "image"]
+  output: ["answer"]
+metadata:
+  path: "./metadata/all_task.json"
+output:
+  path: "./tasks/"
+contact:
+  contributor: ["Anonymous"]

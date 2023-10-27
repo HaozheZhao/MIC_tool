@@ -1,0 +1,27 @@
+# write git ingore file
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore logs and other generated files
+*.log
+*.txt
+*.csv
+
+# Ignore PyTorch model files
+*.pt
+*.pth
+
+# Ignore Jupyter Notebook output files
+*.html
+*.ipynb
+
+# Ignore virtual environment files
+venv/
+env/

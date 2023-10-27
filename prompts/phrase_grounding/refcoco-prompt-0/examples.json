@@ -1,0 +1,37 @@
+{
+  "name": "image_segmentation",
+  "positive": [
+        {
+            "input": [
+                {
+                    "text": "",
+                    "image": ""
+                }
+            ],
+            "output": [
+                {
+                    "text": ""
+                }
+            ],
+            "explain": "",
+            "id": "01"
+        }
+  ],
+  "negative": [
+        {
+            "input": [
+                {
+                    "text": "",
+                    "image": ""
+                }
+            ],
+            "output": [
+                {
+                    "text": ""
+                }
+            ],
+            "explain": "",
+            "id": "01"
+        }
+  ]
+}

@@ -1,0 +1,25 @@
+dataset:
+  name: "refcoco"
+  subset_size: -1
+  prompt: 0
+  data_path: "./data/refcoco"
+  modalities: ["image", "caption", "bbox"]
+  types: ["image", "caption", "quadrant"]
+  url:
+    vision: "https://cocodataset.org/"
+    language: "https://github.com/lichengunc/refer"
+    prompt: "https://dl.acm.org/doi/pdf/10.1145/3491102.3501825"
+task:
+  name: "phrase_grounding"
+  template_path: "./prompts/phrase_grounding/refcoco-prompt-0/template.json"
+  example_path: "./prompts/phrase_grounding/refcoco-prompt-0/examples.json"
+  definition: ""
+  path: ""
+  input: ["text","image"]
+  output: ["caption"]
+metadata:
+  path: "./metadata/all_task.json"
+output:
+  path: "./tasks/"
+contact:
+  contributor: ["Haozhezhao"]

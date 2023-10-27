@@ -1,0 +1,38 @@
+{
+    "source": "wikiart",
+    
+    "template":{ "input_template":[         
+    "image 0 is <image0>图.\nPlease provide information about the artist, genre, and style of the image 0",
+    "image 0 is <image0>图.\nI would like to know the artist's name, the genre, and the specific style depicted in the <image0>.",
+    "image 0 is <image0>图.\nCould you identify the artistic genre, the artist, and the style portrayed in this artwork?",
+    "image 0 is <image0>图.\nIn the <image0>, which genre does it belong to, who is the artist, and what is the predominant style?",
+    "image 0 is <image0>图.\nTell me about the artist, genre, and style associated with this particular artwork.",
+    "image 0 is <image0>图.\nCan you provide details about the genre, the artist, and the style the image 0 represents?",
+    "image 0 is <image0>图.\nIdentify the genre, artist, and style of this captivating artwork, please.",
+    "image 0 is <image0>图.\nI'm curious to learn about the artist's name, the genre, and the distinctive style showcased in the image 0",
+    "image 0 is <image0>图.\nCould you enlighten me about the genre, artist, and the artistic style that characterizes this beautiful piece?",
+    "image 0 is <image0>图.\nIn terms of genre, artist, and style, what information can you provide regarding this fascinating artwork?",
+    "image 0 is <image0>图.\nWhat are the main characteristics of the genre, artist, and artistic style of this piece?",
+    "image 0 is <image0>图.\nShare some key information about the artist, genre, and style of the <image0>.",
+    "image 0 is <image0>图.\nIn a few words, identify the genre, artist, and style of the image 0",
+    "image 0 is <image0>图.\nBriefly share information about the genre, artist, and style the <image0> represents.",
+    "image 0 is <image0>图.\nCan you summarize the artist, genre, and style for this artwork in a few words?",
+    "image 0 is <image0>图.\nGive me a quick rundown of the artist, genre, and style associated with this piece of art.",
+    "image 0 is <image0>图.\nWhat are the key details about the artistic genre, the artist, and the style portrayed in this artwork?",
+    "image 0 is <image0>图.\nProvide a concise overview of the artist's name, the genre, and the particular style depicted in the <image0>.",
+    "image 0 is <image0>图.\nCan you briefly describe the artist, genre, and style of this artwork?"
+    ],
+    "output_template":[
+            "With regard to image 0, the artist is {artist_name}, the genre of the artwork is {genre_name}, and the style can be described as {style_name}.",
+        "Upon analyzing image 0, the artist behind the artwork is {artist_name}, the genre it belongs to is {genre_name}, and the style is {style_name}.",
+        "From the visual data in image 0, it is evident that the artist is {artist_name}, the genre is {genre_name}, and the style is {style_name}.",
+        "The information gathered from image 0 reveals that the artist is {artist_name}, the genre is {genre_name}, and the style is {style_name}.",
+        "Image 0 presents an artwork created by {artist_name}, falling under the {genre_name} genre, and characterized by the {style_name} style.",
+        "In image 0, the artist responsible for the artwork is {artist_name}, the genre it belongs to is {genre_name}, and the predominant style is {style_name}.",
+        "After observing image 0, I can conclude that the artist responsible for this piece is {artist_name}, the genre is {genre_name}, and the style is {style_name}.",
+        "Based on the visual information in image 0, the artist is {artist_name}, the genre is {genre_name}, and the style can be identified as {style_name}.",
+        "From my analysis, the artwork in image 0 was created by {artist_name}, belongs to the {genre_name} genre, and showcases the {style_name} style.",
+        "Upon examining image 0, I can ascertain that the artist is {artist_name}, the genre is {genre_name}, and the style is predominantly {style_name}."
+    ]}
+}
+    

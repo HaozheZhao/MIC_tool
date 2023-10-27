@@ -1,0 +1,25 @@
+dataset:
+  name: "diffusiondb"
+  prompt: 1
+  subset_size: -1
+  data_path: "./data/diffusiondb"
+  modalities: ["image", "text"]
+  types: ["image", "answer"]
+  url:
+    vision: "https://huggingface.co/datasets/poloclub/diffusiondb"
+    language: "https://huggingface.co/datasets/poloclub/diffusiondb"
+    prompt: "https://arxiv.org/abs/2210.14896"
+task:
+  name: "image_captioning"
+  template_path: "./prompts/image_generation/diffusiondb-prompt-1/template.json"
+  example_path: "./prompts/image_generation/diffusiondb-prompt-1/examples.json"
+  definition: ""
+  path: ""
+  input: ["text","image"]
+  output: ["answer"]
+metadata:
+  path: "./metadata/all_task.json"
+output:
+  path: "./tasks/"
+contact:
+  contributor: ["Anonymous"]

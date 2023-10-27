@@ -1,0 +1,40 @@
+{
+    "source": "ln_coco",
+    "template": {
+        "input_template":[
+            "The image 0 is <image0>图.\n Carefully analyze the contents to generate a detailed and accurate description that accurately represents the objects, people, and scenery present.",
+            "The image 0 is <image0>图.\n Please provide a caption of the image 0 based on the comprehensive analysis, focusing on the textual information and the visual elements such as objects, people, and scenery.",
+            "Take a close look at image 0: <image0>图. Generate a detailed and accurate description that captures the essence of the image.",
+            "Analyze image 0: <image0>图 in depth. Describe the elements within the image to provide a complete understanding of the image.",
+            "Image 0 is <image0>图. Conduct a thorough examination of the image and provide a detailed description, focusing particularly on both the textual and visual information.",
+            "The image 0 is <image0>图.\n Your caption should provide sufficient information about <image0> so that someone who has not seen the image can understand it.",
+            "The image 0 is <image0>图.\n Be specific and detailed in your description of <image0>, but also try to capture the essence of the image 0 in a succinct way.",
+            "Look at image 0: <image0>图 and give a succinct and detailed description of what you see, capturing the main objects, people, and scenery.",
+            "Study image 0: <image0>图 and create a detailed description that highlights the primary objects, people, and scenery within it.",
+            "The image 0 is <image0>图.\n Conduct a comprehensive analysis of the image and generate a detailed description that accurately represents the objects, people, and scenery present.",
+            "Examine image 0: <image0>图 closely. Generate a detailed and accurate description that captures the essence of the image.",
+            "Analyze image 0: <image0>图 in depth. Describe the elements within the image to provide a complete understanding of the image."
+
+        ],
+        "output_template":[
+            "Having carefully analyzed image 0, I can confidently say that the image depicts {answer}.",
+            "Upon close inspection of image 0, it's evident that the primary focus is on {answer}.",
+            "After a thorough examination of image 0, I've determined that the image features {answer}.",
+            "Following a careful assessment of image 0, my observation leads me to believe that the image portrays {answer}.",
+            "Upon analyzing image 0, I can assert that the image captures {answer}.",
+            "By reviewing image 0, I can confidently state that the image highlights {answer}.",
+            "Upon a detailed examination of the image, it can be observed that the image depicts {answer}.",
+            "The image 0 presents a scene of {answer}.",
+            "A comprehensive analysis of the image 0 reveals that it illustrates {answer}.",
+            "This image appears to depict {answer}.",
+            "A thorough examination of the image 0 suggests that it illustrates {answer}."
+
+
+        ]
+
+        
+    }
+    
+    
+}
+

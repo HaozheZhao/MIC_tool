@@ -1,0 +1,38 @@
+{
+    "source": "diffusiondb",
+    "template": {
+        "input_template":[
+            "Analyze image 0: <image0>图 and provide a concise and brief description of the elements within the image.",
+            "image 0 is <image0>图\n Look at image 0 and give a succinct description of what you see, capturing the main objects, people, and scenery. Be concise.",
+            "image 0 is <image0>图\n Observe image 0 and offer a short, accurate summary of its content, focusing on the key elements.",
+            "Study image 0: <image0>图 and create a concise description that highlights the primary objects, people, and scenery within it.",
+            "Evaluate image 0: <image0>图 and describe its content accurately in a few words, focusing on the main elements.",
+            "image 0 is <image0>图\n Assess <image0> and give a brief, accurate summary of its content, capturing the primary objects, people, and scenery.",
+            "image 0 is <image0>图\n Carefully analyze image 0 and briefly describe the key elements present in it.",
+            "image 0 is <image0>图\n Take a close look at the image 0: and provide a succinct description of the main objects, people, and scenery.",
+            "image 0 is <image0>图\n Examine <image0> thoroughly and provide a short and precise summary of its contents.",
+            "image 0 is <image0>图\n Study image 0 and give a brief account of the most significant elements it contains.",
+            "image 0 is <image0>图\n Analyze image 0 and provide a concise summary of the people, objects, and scenery present.",
+            "Inspect image 0: <image0>图 and give a short description of the most important elements within it.",
+            "Evaluate image 0: <image0>图 and provide a brief explanation of the primary objects, people, and scenery it displays.",
+            "image 0 is <image0>图\n Scrutinize image 0 and give a concise account of its most notable features.",
+            "Assess image 0: <image0>图 and provide a short and accurate description of the main elements it presents.",
+            "Observe image 0: <image0>图 closely and offer a brief yet accurate depiction of the key aspects present.",
+            "image 0 is <image0>图\n Evaluate <image0> and concisely describe the main components, people, and scenery briefly.",
+            "image 0 is <image0>图\n Carefully examine image 0 and provide a brief, accurate description of the objects, characters, and setting.",
+            "Examine image 0: <image0>图 and briefly describe its content, accurately representing the objects, people, and scenery."
+        ],
+        "output_template":[
+            "After examining the image, I can conclude that it primarily consists of {answer}.",
+            "Based on my analysis, the image 0 features {answer}.",
+            "Upon careful inspection, I have determined that the image 0 displays {answer}.",
+            "After a thorough analysis, I can say that the image 0 portrays {answer}.",
+            "Having studied the image, it is evident that the main components include {answer}.",
+            "Based on my observation, the image 0 contains {answer} as its main elements.",
+            "Upon evaluation, I have identified that the image 0 showcases {answer}.",
+            "After closely examining the image, I can confirm that it prominently displays {answer}.",
+            "Following my assessment, I have determined that the image 0 features {answer} as its main components.",
+            "After careful observation, I can conclude that the image 0 represents {answer}."
+        ]
+    }
+}

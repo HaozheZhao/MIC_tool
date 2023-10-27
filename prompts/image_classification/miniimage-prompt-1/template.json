@@ -1,0 +1,30 @@
+{
+    "source": "miniimage",
+    "template": {
+        "input_template":[
+            "Can you identify the object or concept in the image 0: <image0>图 briefly?",
+            "image 0 is <image0>图.\nPlease briefly describe the main subject of the image 0.",
+            "image 0 is <image0>图.\nGive a concise label to the object shown in the <image0>.",
+            "image 0 is <image0>图.\nProvide a short category or class for the <image0>.",
+            "In a few words, what does the image 0: <image0>图 represent?",
+            "image 0 is <image0>图.\nSummarize the item captured in the image 0 in a few words.",
+            "image 0 is <image0>图.\nBriefly describe the subject in the image 0.",
+            "What object or entity is depicted in the image 0: <image0>图 in a nutshell?",
+            "image 0 is <image0>图.\nGive a quick name to the primary element shown in the <image0>.",
+            "image 0 is <image0>图.\nIn a short phrase, describe what is depicted in the <image0>."
+            
+        ],
+        "output_template":[
+            "Based on my observation, I believe the main subject of the image 0 is {answer}.",
+            "From what I see, I would label the object in the image 0 as {answer}.",
+            "In a brief summary, the image 0 appears to depict {answer}.",
+            "I'd categorize the image 0 as representing {answer}.",
+            "In a nutshell, the image 0 seems to be about {answer}.",
+            "To put it concisely, the item captured in the image 0 is {answer}.",
+            "Summarizing what I see, the subject in the image 0 is {answer}.",
+            "In a few words, the image 0 appears to depict the object {answer}.",
+            "I'd quickly name the primary element shown in the image 0 as {answer}.",
+            "In a short description, the image 0 represents {answer}."
+        ]
+    }
+}

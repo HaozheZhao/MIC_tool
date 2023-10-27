@@ -1,0 +1,25 @@
+dataset:
+  name: "vcr"
+  prompt: 1
+  subset_size: -1
+  data_path: "./data/vcr"
+  modalities: ["image", "question", "answer"]
+  types: ["image", "question", "answer","opitions","prompt",'reason']
+  url:
+    vision: "https://visualcommonsense.com/"
+    language: "https://visualcommonsense.com/"
+    prompt: ""
+task:
+  name: "visual_question_answering"
+  template_path: "./prompts/visual_question_answering/vcr-prompt-1/template.json"
+  example_path: "./prompts/visual_question_answering/vcr-prompt-1/examples.json"
+  definition: ""
+  path: "https://okvqa.allenai.org/"
+  input: ["text", "image","bbox_list"]
+  output: ["answer"]
+metadata:
+  path: "./metadata/all_task.json"
+output:
+  path: "./tasks/"
+contact:
+  contributor: ["Anonymous"]

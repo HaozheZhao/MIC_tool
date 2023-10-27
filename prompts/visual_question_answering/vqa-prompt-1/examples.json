@@ -1,0 +1,37 @@
+{
+  "name": "vqa",
+  "positive": [
+        {
+            "input": [
+                {
+                    "text": "input: ",
+                    "image": ""
+                }
+            ],
+            "output": [
+                {
+                    "text": ""
+                }
+            ],
+            "explain": "",
+            "id": "01"
+        }
+  ],
+  "negative": [
+        {
+            "input": [
+                {
+                    "text": "input: ",
+                    "image": ""
+                }
+            ],
+            "output": [
+                {
+                    "text": ""
+                }
+            ],
+            "explain": "",
+            "id": "01"
+        }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "source": "okvqa",
+    "template": [
+        "Look at image 0 labeled <image0>图 carefully and read question: {question}. Try to understand what is being asked before selecting an answer.",
+        "image 0 is <image0>图. Consider all of the information in image 0 labeled <image0> when answering question. Look at objects, colors, shapes, and other details that may be relevant to question: {question} Answer: ",
+        "image 0 is <image0>图. Read each answer choice carefully and answers question : {question} based on the information provided in image 0.",
+        "image 0 is <image0>图. Given the picture <image0>, pay attention to the wording of question and answer the following question: {question} Answer: ",
+        "Read the question carefully and look at image 0 labeled <image0>图. Use your intuition and common sense when answering the question: {question}",
+        "Consider all of the information in image 0 labeled <image0>图 when answering the question: {question}",
+        "Take your time when answering each question. Don't rush through the questions, and make sure you have carefully considered all of the information provided in image 0 labeled <image0>图 and the question before making your selection. Question: {question} Answer: ",
+        "Make sure your answers are based on the information presented in the image 0: <image0>图. Question:{question} Answer:",
+        "Carefully examine image 0 labeled <image0>图 before answering the question. Question:{question} Answer:",
+        "Please refer to image 0: <image0>图 when answering the following questions: {question} Answer:"
+    ]
+}
+
+
+
+
+
+
+

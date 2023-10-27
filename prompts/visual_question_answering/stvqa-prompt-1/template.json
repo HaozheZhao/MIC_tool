@@ -1,0 +1,50 @@
+{
+    "source": "stvqa",
+
+    "template":{ "input_template":[         
+            "To answer the following question: {question}, please thoroughly examine image 0: <image0>图, focusing especially on the textual information.",
+            "The image 0 is <image0>图\n Analyze the image 0 in depth, paying particular attention to the textual information, to provide a concise response to the question: {question}.",
+            "The image 0 is <image0>图\n With reference to image 0, carefully analyze the contents, especially the textual information, and provide a succinct response to the question: {question}.",
+            "The image 0 is <image0>图\n Examine <image0> closely, putting emphasis on the textual information, and offer a short answer to the question: {question}.",
+            "By analyzing the details in image 0: <image0>图, with a focus on the textual content, please provide a concise answer to the question: {question}.",
+            "Utilizing the information from image 0: <image0>图, particularly the textual information, respond briefly to the question: {question}.",
+            "The image 0 is <image0>图\n After inspecting the contents of image 0, especially the textual information, give a to-the-point answer to the question: {question}.",
+            "The image 0 is <image0>图\n Study the image 0 in depth, paying special attention to the textual information, and provide a direct answer to the question: {question}.",
+            "Refer to the details in image 0: <image0>图, focusing more on the textual content, and give a brief response to the question: {question}.",
+            "Use the information, particularly the textual content, in image 0: <image0>图 to formulate a short answer for the question: {question}.",
+            "Keeping in mind the details in image 0: <image0>图, and any textual information associated with it, answer the following question concisely: {question}",
+            "image 0 is <image0>图\nAnalyze the contents of image 0 to provide a brief and accurate answer for the question: {question}",
+            "image 0 is <image0>图\nRefer to image 0 and any related textual information to deliver a succinct response to the question: {question}",
+            "The image 0 is <image0>图\nUsing the information in <image0> and any textual information, present a concise answer for the question: {question}",
+            "The image 0 is <image0>图\nExamine <image0> and any textual information closely to provide a short yet accurate answer to the question: {question}",
+            "The image 0 is <image0>图\nEnsure that your response is based on the information in image 0: and any textual information when answering the question: {question}",
+            "For the question: {question}, provide a brief and precise answer using the details from image 0: <image0>图 and any textual information",
+            "Consider the information in image 0: <image0>图 and any textual information when crafting a concise response to the question: {question}",
+            "Answer the question: {question} concisely, using the details provided in image 0: <image0>图 and any associated textual information",
+            "After examining image 0: <image0>图 and any textual information, present a brief and accurate response to the question: {question}"
+
+        ],
+        "output_template":[
+                "After thoroughly examining the image and focusing on the associated textual information, I can conclude that the answer is {answer}.",
+                "Based on the information provided in the image, particularly the text, the correct response is {answer}.",
+                "Considering the details in the image, with a focus on the text, the answer to the question appears to be {answer}.",
+                "Upon analyzing the image and its textual content, I have determined that the answer to the question is {answer}.",
+                "Taking into account the information from the image, especially the text, the appropriate answer to the question is {answer}.",
+                "With reference to the image and its textual information, the suitable answer for the question is {answer}.",
+                "By observing the image and focusing on the textual information, I can confirm that the answer to the question is {answer}.",
+                "After scrutinizing the image and its text, it is evident that the answer to the question is {answer}.",
+                "In light of the image's details, particularly the text, I can deduce that the answer to the question is {answer}.",
+                "Utilizing the information in the image, with an emphasis on the text, I have ascertained that the correct answer to the question is {answer}.",
+                "Upon analyzing the image and its textual information, I can conclude that the answer to the question is {answer}.",
+                "Considering the information provided in the image, the correct response to the question is {answer}.",
+                "After thorough examination of the image and textual details, I have determined that the answer is {answer}.",
+                "Based on the contents of the image and any related text, the answer to the question is {answer}.",
+                "Taking into account the details in the image and textual information, the most suitable answer for the question is {answer}.",
+                "After carefully studying the image and its text, I can confidently say that the answer is {answer}.",
+                "By interpreting the information in the image and associated text, it is clear that the answer to the question is {answer}.",
+                "Upon close examination of the image and its textual information, I have deduced that the correct answer is {answer}.",
+                "By analyzing the image and its contents, including the text, I can confirm that the answer to the question is {answer}.",
+                "With the information provided in the image and its text, I can ascertain that the appropriate response is {answer}."
+        ]}
+}
+

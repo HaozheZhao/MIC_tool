@@ -1,0 +1,16 @@
+{
+    "source": "coco",
+    "template": [
+        "Carefully analyze image 0: <image0>图 to generate a concise and accurate description that accurately represents the objects, people, and scenery present.",
+        "Use clear and concise language that accurately describes the content of image 0: <image0>图.",
+        "Your caption should provide sufficient information about image 0: <image0>图 so that someone who has not seen the image can understand it.",
+        "image 0 is <image0>图. Be specific and detailed in your description of image 0, but also try to capture the essence of the image 0 in a succinct way.",
+        "image 0 is <image0>图. Based on the image 0, describe what is contained in this photo. Your caption should be no more than a few sentences and should be grammatically correct and free of spelling errors.",
+        "Include information in your caption that is specific to image 0: <image0>图 and avoid using generic or ambiguous descriptions.",
+        "image 0 is <image0>图. Based on the image 0, give a caption about this image. Think about what message or story image 0 is conveying, and try to capture that in your image caption.",
+        "Based on the image 0, give a caption about this image. Your caption should provide enough detail about image 0: <image0>图 to give the viewer a sense of what is happening in the image.",
+        "Give a caption about this image. Avoid using overly complex language or jargon in your caption of image 0: <image0>图 that might confuse the viewer.",
+        "Be creative in your approach to captioning image 0: <image0>图 and try to convey a unique perspective or story."
+    ]
+}
+

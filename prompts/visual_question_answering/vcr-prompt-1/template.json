@@ -1,0 +1,29 @@
+{
+    "source": "vcr",
+    "template":{ "input_template":[         
+        "{prompt}. Given the options below, based on the images, select the most suitable answer for the following question: {question}. Options: {options}",
+        "Please read the question and answer choices carefully. Select the option that best answers the question. {prompt}. Given the images, select the best option that answers the question from the available answer choices. Question: {question} Options: {options}",
+        "Choose the answer that best fits the description or action in the image. {prompt}. Consider the scene depicted in the images, choose the answer that best fits the description or action in the image from the available answer choices. Question: {question} Options: {options}",
+        "{prompt}. Examine the details in the pictures and use them to inform your answer to the question. Choose the best answer from the available options. Question: {question} Options: {options}",
+        "Look closely at the images and think about what is happening in the scene. {prompt}. Given the images, carefully examine the images and select the best answer that describes what is happening in the scene from the available answer choices. Question: {question} Options: {options}",
+        "Consider all of the details in the image and the wording of the question before making your selection. {prompt}. Given the pictures, consider all of the details in the image and the wording of the question before selecting the best answer choice from the available options. Question: {question} Options: {options}",
+        "Remember to use your common sense and reasoning skills to choose the best answer. {prompt}. Think about the images, use your common sense and reasoning skills to select the best answer choice from the available options. Question: {question} Options: {options}",
+        "{prompt}. Select the answer that most closely matches the description or action in images, based on the available options. Given the picture <image0>, select the answer choice that most closely matches the description or action in the image from the available options. Question: {question} Options: {options}",
+        "Choose the option that provides the most accurate and complete answer to the question, based on the available information. {prompt} Given the images, select the option that provides the most accurate and complete answer to the question from the available answer choices. Question: {question} Options: {options}",
+        "{prompt}. Use the information in the images to help you make the best choice from the available answer options for the question Question: {question} Options: {options}",
+        "{prompt}.Given the images, select the option that provides the most accurate and complete answer to the question from the available answer choices. Question: {question} Options: {options}",
+        "{prompt}.Based on the images, choose the option that provides the most accurate and complete answer to the question. Question: {question} Options: {options}",
+        "{prompt}.Looking at images, determine the correct answer to the question from the given choices. Question: {question} Options: {options}",
+        "{prompt}.Based on the information in the images, select the most fitting answer to the question from the answer choices. Question: {question} Options: {options}"
+    ],
+    "output_template":[
+        "After analyzing the images and considering the options, I can conclude that the correct answer is {answer} Because {reason}",
+        "Based on the visual information in the images, the most appropriate answer is {answer}. It is because {reason}",
+        "Taking into account the details of the images and the available choices, the best answer is {answer} It is because {reason}",
+        "Upon examining the images and the given options, it is clear that the right answer is {answer} Because {reason}",
+        "From the information provided in the images and the answer choices, I can deduce that the answer is {answer} Because {reason}"
+    ]}
+
+
+    
+}

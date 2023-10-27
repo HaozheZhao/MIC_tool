@@ -1,0 +1,42 @@
+{
+    "source": "flickr",
+    "template": {
+        "input_template":[
+            "Examine image 0: <image0>图 and briefly describe its content, accurately representing the objects, people, and scenery.",
+            "The image 0 is <image0>图.\n Carefully analyze the image 0 to generate a concise and accurate description that accurately represents the objects, people, and scenery present.",
+            "Describe image 0: <image0>图 in a way that is clear and concise, accurately representing the objects, people, and scenery present.",
+            "Analyze image 0: <image0>图 and provide a concise description of the elements within the image.",
+            "The image 0 is <image0>图.\n Use clear and concise language that accurately describes the content of <image0>.",
+            "The image 0 is <image0>图.\n Your caption should provide sufficient information about <image0> so that someone who has not seen the image can understand it.",
+            "Review image 0: <image0>图 and provide a short, precise description of the key elements in the image 0.",
+            "Check image 0: <image0>图 and offer a succinct caption that accurately represents the main objects, people, and scenery. Be concise.",
+            "image 0 is <image0>图\nGive a brief caption about the image 0. Think about what message or story image is conveying, and try to capture that in your image caption.",
+            "Examine image 0: <image0>图 and provide a brief and precise description of the objects, people, and surroundings.",
+            "Study image 0: <image0>图 and briefly describe the main elements, individuals, and setting. Make the response concise.",
+            "image 0 is <image0>图\n Take a close look at image 0 and generate a succinct, accurate description of the items, characters, and environment.",
+            "Closely observe image 0: <image0>图 and create a short, accurate summary of the objects, people, and landscape.",
+            "image 0 is <image0>图\n Analyze image 0 and provide a condensed, accurate representation of the elements, individuals, and context.",
+            "image 0 is <image0>图\n Inspect image 0 and generate a brief, precise summary of the objects, characters, and backdrop.",
+            "image 0 is <image0>图\n Evaluate <image0> and concisely describe the main components, people, and scenery briefly.",
+            "Assess image 0: <image0>图 and give a concise, accurate account of the items, characters, and setting. Provide a brief answer.",
+            "image 0 is <image0>图\n Examine <image0> and provide a short, precise explanation of the elements, individuals, and environment",
+            "Scrutinize image 0: <image0>图 and offer a concise, accurate depiction of the objects, people, and landscape",
+            "image 0 is <image0>图\n Carefully examine image 0 and provide a brief, accurate description of the objects, characters, and setting.",
+            "Examine image 0: <image0>图 and briefly describe its content, accurately representing the objects, people, and scenery."
+            
+        ],
+        "output_template":[
+            "Upon close inspection, I can say that image 0 depicts {answer}.",
+            "After scrutinizing image 0, I can deduce that it illustrates {answer}.",
+            "Following a thorough examination of image 0, it appears to depict {answer}.",
+            "Having analyzed image 0, I can conclude that it showcases {answer}.",
+            "From my careful observation of image 0, I can determine that it illustrates {answer}.",
+            "After closely reviewing image 0, I can ascertain that it illustrates {answer}.",
+            "Upon evaluating image 0, I can deduce that it presents {answer}.",
+            "Following a thorough assessment of image 0, I can confirm that it tells {answer}.",
+            "Having examined image 0, I can establish that it illustrates {answer}.",
+            "After scrutinizing image 0, I can verify that it tells {answer}."
+        ]
+    }
+
+}

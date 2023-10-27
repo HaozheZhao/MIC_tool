@@ -1,0 +1,25 @@
+dataset:
+  name: "wikiart"
+  prompt: 0
+  subset_size: -1
+  data_path: "./data/wikiart"
+  modalities: ["image", "text"]
+  types: ["image", "answer"]
+  url:
+    vision: "https://github.com/cs-chan/ArtGAN"
+    language: "https://github.com/cs-chan/ArtGAN"
+    prompt: "https://dl.acm.org/doi/pdf/10.1145/3491102.3501825"
+task:
+  name: "image_generation"
+  template_path: "./prompts/image_generation/wikiart-prompt-0/template.json"
+  example_path: "./prompts/image_generation/wikiart-prompt-0/examples.json"
+  definition: ""
+  path: ""
+  input: ["text","image"]
+  output: ["answer"]
+metadata:
+  path: "./metadata/all_task.json"
+output:
+  path: "./tasks/"
+contact:
+  contributor: ["Anonymous"]

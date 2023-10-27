@@ -1,0 +1,8 @@
+{
+    "source": "iconqa",
+    "template": [
+        "image 0 is <image0>图.\nGiven the image 0, select the option that provides the most accurate and complete answer to the question from the available answer choices. Question: {question} Options: {options} Answer:",
+        "image 0 is <image0>图.\nGiven the options below, based on the photo image 0, select the most suitable answer for the following question: {question}. Options: {option}. Answer:",
+        "image 0 is <image0>图.\nBased on the <image0>, choose the option that provides the most accurate and complete answer to the question. Question: {question} Options: {options} Answer:"
+    ]
+}

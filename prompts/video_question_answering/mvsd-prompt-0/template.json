@@ -1,0 +1,26 @@
+{
+    "source": "msrvttqa",
+    "template": [
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nWatch the provided images carefully and answer the following questions based on your understanding of the images content. Qusetion: {question}. Answer:",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nCarefully analyze the visual elements of the images and answer the questions based on your observations. Qusetion: {question}. Answer:",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nPay close attention to the details in the images and provide accurate answers to the questions based on what you see. Qusetion: {question}. Answer:",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nUtilize your comprehension skills to answer the questions based on the context and events depicted in the images. Qusetion: {question}. Answer:",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nConsider the relationships between the images frames, scenes, and the provided questions to formulate accurate answers. Qusetion: {question}. Answer:",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nUse your knowledge of the images's content to answer the questions by recalling specific details and events. Qusetion: {question}. Answer:",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nMake logical inferences based on the information presented in the images to answer the questions with reasoned explanations. Qusetion: {question}. Answer:",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nWhile answering the questions, consider both the explicit and implicit information conveyed in the images to provide comprehensive responses. Qusetion: {question}. Answer:",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nFormulate your answers by considering the temporal context of the images and the chronological order of events. Qusetion: {question}. Answer:",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nTake into account the emotions, actions, and interactions of the characters in the images when answering the questions. Qusetion: {question}. Answer:"
+    ]
+}
+

@@ -1,0 +1,37 @@
+{
+  "name": "image_captioning",
+  "positive": [
+        {
+            "input": [
+                {
+                    "text": "an image of",
+                    "image": ""
+                }
+            ],
+            "output": [
+                {
+                    "text": ""
+                }
+            ],
+            "explain": "",
+            "id": "01"
+        }
+  ],
+  "negative": [
+        {
+            "input": [
+                {
+                    "text": "an image of",
+                    "image": ""
+                }
+            ],
+            "output": [
+                {
+                    "text": ""
+                }
+            ],
+            "explain": "",
+            "id": "01"
+        }
+  ]
+}

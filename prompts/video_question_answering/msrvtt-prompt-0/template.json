@@ -1,0 +1,18 @@
+{
+    "source": "msrvttqa",
+    "template": [
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nWatch the images carefully and write a detailed description of what you see.",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nAfter viewing the images, provide a summary of the main events or key points depicted.",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nPay close attention to the details in the images and provide accurate description to the images based on what you see.",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nUtilize your comprehension skills to describe the context and events depicted in the images.",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nReflect on the images's narrative structure and identify any storytelling techniques or narrative devices used. Write a detailed description of what you see.",
+
+        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nConsider both the explicit and implicit information conveyed in the images to provide comprehensive description of the images."
+    ]
+}
+
