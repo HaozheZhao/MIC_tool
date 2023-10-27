@@ -1,6 +1,3 @@
-{
-    "source": "vsr",
-    "template": [
-        "image 0 is <image0>图. Caption is {question} Determine whether the caption accurately describes the spatial relation between the two objects in the image 0. True or False?"
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:77fb2d0e44354b5f68fc351bc3f22c439cd91c589ed85b94ad8427183b97ea6c
+size 231

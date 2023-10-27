@@ -1,8 +1,3 @@
-{
-    "source": "llava",
-    "template": [
-        "image 0 is <image0>图 \n{question}\nAnswer: ",
-        "image 0: <image0>图 \n{question}\nAnswer: "
-    ]
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:57d269d8f9b357ab6a0ee100f19f0fb3b7c6ea0e607deb0fe506ae3074da3faf
+size 163

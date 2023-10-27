@@ -1,10 +1,3 @@
-{
-  "image_generation": "Generate images that are semantically related to a given text input.",
-  "visual_question_answering": "Answer the question based on an image.",
-  "image_captioning": "Describe the content of an image in words.",
-  "image_classification": "Classify the image by assigning it to a specific label.",
-  "video_question_answering": "Answer the question based on images(vides).",
-  "visual_dialog": "Answer the question based on dialog.",
-  "phrase_grounding": "Answer the question based on pointed location of the image."
-  
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4be455b4397a50a43da0b01b2e14b152f643ea69a1f54c1b72ac596320357081
+size 546

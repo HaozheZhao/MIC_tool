@@ -1,33 +1,3 @@
-{
-    "source": "funqa",
-
-    "template":{ "input_template":[
-
-        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nimage 8 is <image8>图. \nimage 9 is <image9>图. \nimage 10 is <image10>图. \nimage 11 is <image11>图. \nReview the series of images, which collectively form a video. Carefully observe the content of the video and answer the following question. Qusetion: {question}.",
-
-        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nimage 8 is <image8>图. \nimage 9 is <image9>图. \nimage 10 is <image10>图. \nimage 11 is <image11>图. \nReview the series of images, which collectively form a video. Carefully analyze the visual elements of the video and answer the question based on your observations. Qusetion: {question}.",
-
-        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nimage 8 is <image8>图. \nimage 9 is <image9>图. \nimage 10 is <image10>图. \nimage 11 is <image11>图. \nThese images from a video. Pay close attention to the details in the video and provide accurate answer to the questions based on what you see. Qusetion: {question}.",
-
-        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nimage 8 is <image8>图. \nimage 9 is <image9>图. \nimage 10 is <image10>图. \nimage 11 is <image11>图. \nThese images from a video. Utilize your comprehension skills to answer the questions briefly based on the context and events depicted in the video. Qusetion: {question}.",
-
-        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nimage 8 is <image8>图. \nimage 9 is <image9>图. \nimage 10 is <image10>图. \nimage 11 is <image11>图. \nThese images are the frame of a video. Consider the relationships between the those images frames, scenes, and the provided questions to formulate accurate and concise answer. Qusetion: {question}.",
-
-        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nimage 8 is <image8>图. \nimage 9 is <image9>图. \nimage 10 is <image10>图. \nimage 11 is <image11>图. \nReview the series of images, which collectively form a video. Use your knowledge of the video's content to answer the questions briefly by recalling specific details and events. Qusetion: {question}.",
-
-        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nimage 8 is <image8>图. \nimage 9 is <image9>图. \nimage 10 is <image10>图. \nimage 11 is <image11>图. \nWhile answering the questions briefly, consider both the explicit and implicit information conveyed in the video frames to provide comprehensive responses. Qusetion: {question}.",
-
-        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nimage 8 is <image8>图. \nimage 9 is <image9>图. \nimage 10 is <image10>图. \nimage 11 is <image11>图. \nTake into account the emotions, actions, and interactions of the characters in the video frames when answering the questions. Qusetion: {question}.",
-
-        "image 0 is <image0>图. \nimage 1 is <image1>图. \nimage 2 is <image2>图. \nimage 3 is <image3>图. \nimage 4 is <image4>图. \nimage 5 is <image5>图. \nimage 6 is <image6>图. \nimage 7 is <image7>图. \nimage 8 is <image8>图. \nimage 9 is <image9>图. \nimage 10 is <image10>图. \nimage 11 is <image11>图. \nBased on the information in the video frames, answer the questions briefly by considering the context and events depicted in the images. Qusetion: {question}."
-    ],
-        "output_template":[
-
-            "Taking into account the details of the video, it appears that the answer to the question is {answer}.",
-            "Upon closely examining the video, the correct answer is {answer}.",
-            "{answer}",
-            "{answer}",
-            "The answer to the question is {answer}."
-        ]}
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c6eaaa9077d92b28799272db8d64d77f8656bb38cddb7dd5bffb005e9318977
+size 4930

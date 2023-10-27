@@ -1,35 +1,3 @@
-{
-    "source": "nocaps",
-    "template": {
-        "input_template":[
-            "Analyze image 0: <image0>图 and provide a concise and brief description of the elements within the image.",
-            "Look at image 0: <image0>图 and give a succinct description of what you see, capturing the main objects, people, and scenery. Be concise.",
-            "image 0 is <image0>图\n Observe image 0 and offer a short, accurate summary of its content, focusing on the key elements.",
-            "Study image 0: <image0>图 and create a concise description that highlights the primary objects, people, and scenery within it.",
-            "Evaluate image 0: <image0>图 and describe its content accurately in a few words, focusing on the main elements.",
-            "image 0 is <image0>图\n Assess <image0> and give a brief, accurate summary of its content, capturing the primary objects, people, and scenery.",
-            "Review image 0: <image0>图 and provide a short, precise description of the key elements in the image.",
-            "Check image 0: <image0>图 and offer a succinct caption that accurately represents the main objects, people, and scenery.",
-            "image 0 is <image0>图\n Take a close look at image 0 and generate a succinct, accurate description of the items, characters, and environment.",
-            "Closely observe image 0: <image0>图 and create a short, accurate summary of the objects, people, and landscape.",
-            "image 0 is <image0>图\n Analyze image 0 and provide a condensed, accurate representation of the elements, individuals, and context.",
-            "image 0 is <image0>图\n Inspect image 0 and generate a brief, precise summary of the objects, characters, and backdrop.",
-            "image 0 is <image0>图\n Evaluate <image0> and concisely describe the main components, people, and scenery briefly.",
-            "image 0 is <image0>图\n Carefully examine image 0 and provide a brief, accurate description of the objects, characters, and setting.",
-            "Examine image 0: <image0>图 and briefly describe its content, accurately representing the objects, people, and scenery."
-            
-        ],
-        "output_template":[
-            "Having carefully analyzed image 0, I can confidently say that the image depicts {answer}.",
-            "Upon close inspection of image 0, it's evident that the image tells {answer}.",
-            "After a thorough examination of image 0, I've determined that the image depicts {answer}.",
-            "Following a careful assessment of image 0, my observation leads me to believe that the image depicts {answer}.",
-            "Based on a detailed review of image 0, it's clear that the image depicts {answer}.",
-            "Having studied image 0, I can conclude that its main elements illustrates {answer}.",
-            "Through a comprehensive evaluation of image 0, I've deduced that the image showcases {answer}.",
-            "After examining image 0, it's apparent that the image primarily depicts {answer}.",
-            "Upon analyzing image 0, I can assert that the image captures {answer}.",
-            "By reviewing image 0, I can confidently state that the image highlights {answer}."
-        ]
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c00bfec998f4e6cc13869e98538a2aba8f25133d3ace550720e10587423d2b01
+size 3239

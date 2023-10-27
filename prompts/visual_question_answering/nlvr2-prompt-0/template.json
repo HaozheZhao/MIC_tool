@@ -1,16 +1,3 @@
-{
-    "source": "nlvr2",
-    "template": [
-        "image 0 is <image0>图. Given the picture <image0>, answer the following question: {question} Is this correct? True or False. Answer: ",
-        "For the question: {question}, carefully examine image 0: <image0>图 and use your knowledge to determine if the statement is True or False.",
-        "Please refer to image 0: <image0>图 when answering the question: {question} Is this correct? True or False. Answer: ",
-        "Remember to consider both the question and the information presented in image 0: <image0>图 when answering the True or False question: {question}",
-        "image 0 is <image0>图.Answer the question: {question} based on the information presented in the image 0 and determine if the statement is True or False.",
-        "Carefully examine the image 0: <image0>图 and use your knowledge to determine whether the statement is True or False. Question: {question}",
-        "Remember that the answer to each question is either True or False, so make sure you choose the correct option based on the information presented in image 0: <image0>图. Question: {question}", 
-        "Make sure your answers are based on the information presented in the image 0: <image0>图. Question:{question} Is this correct?True or False. Answer:",
-        "Carefully examine image 0 labeled <image0>图 before answering the question. Question:{question} True or False? Answer:"
-
-    ]
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ce015e39286dade6df66759c5e9f51929ac0ffbbd9200280ed7fd6c2e40ece9
+size 1447

@@ -1,6 +1,3 @@
-{
-    "source": "minecraft",
-    "template": [
-        "image 0 is <image0>图. Please refer to image 0 when answering the following questions: {question} Answer:"
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a96ba650deaf13f9ddbad69ee3545d670931624d83527143a64ff32abdb123f
+size 171

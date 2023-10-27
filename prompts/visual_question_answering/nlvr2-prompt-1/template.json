@@ -1,30 +1,3 @@
-{
-    "source": "nlvr2",
-
-    "template":{ "input_template":[         
-            "The image 0 is <image0>图\n image 1 is <image1>图\n The image 0 is the left image and the image 1 is the right image.\n Analyzing the image 0 and image 1, can you validate the statement: {question}? Respond with either True or False.",
-            "The image 0 is <image0>图\n image 1 is <image1>图\n The image 0 is the on the left and the image 1 is on the right.\n Analyze the two image in depth and provide a verdict on the following statement: {question}. Your answer should be concise: True or False.",
-            "The image 0 is <image0>图\n image 1 is <image1>图\n The image 0 is the left image and the image 1 is the right image.\n Utilizing the information from image 0 and image 1, validate the following claim: {question}. Is this claim accurate? Please respond in True or False",
-            "The image 0 is <image0>图\n image 1 is <image1>图\n The image 0 is the on the left and the image 1 is on the right.\n Consider the details presented in the two images. Based on this, ascertain the accuracy of the statement: {question}. A True or False response is expected.",
-            "The image 0 is <image0>图\n image 1 is <image1>图\n The image 0 is the left image and the image 1 is the right image.\n Taking a close look at image 0 and image 1, can you tell if the following assertion: {question} aligns with it? Your response should be either True or False.",
-            "The image 0 is <image0>图\n image 1 is <image1>图\n The image 0 is the on the left and the image 1 is on the right.\n Based on your analysis of both images, can you confirm if the statement: {question} is correct? Please respond with either True or False.",
-            "Please refer to image 0: <image0>图 and image 1: <image1>图. Image 0 is on the left and image 1 is on the right. Can you validate the statement: {question} based on these images? Your answer should be either True or False",
-            "The image 0 is <image0>图\n image 1 is <image1>图\n Consider the image 0 (left) and image 1 (right), can you determine if the statement: {question} is true or false based on these images?",
-            "Two images are provided for your reference. Image 0: <image0>图 is on the left and image 1: <image1>图 is on the right. Can you validate the statement: {question} based on these images? Please respond with either True or False.",
-            "Please observe image 0: <image0>图 (left) and image 1: <image1>图 (right). Can you determine the truthfulness of the statement: {question} based on these images? Your response should be True or False.",
-            "You are presented with two images. Image 0: <image0>图 is on the left and image 1: <image1>图 is on the right. Based on these images, can you verify if the statement: {question} is accurate? Please respond with True or False."
-
-        ],
-        "output_template":[
-                "After carefully examining the images, I can conclude that the statement: {question} is {answer} based on the information presented in the images.",
-                "Based on my analysis of the images, I can confirm that the statement: {question} is {answer}.",
-                "Taking into account the details in both images, my conclusion is that the statement: {question} is {answer}.",
-                "Upon analyzing the images, I have determined that the answer to the statement {question} is {answer}.",
-                "Upon thorough examination of the images, I have determined that the statement: {question} is {answer} based on the information provided in the images.",
-                "After analyzing the images, I can assert that the statement: {question} is {answer}.",
-                "By observing the image and focusing on the visual information, I can confirm that the answer to the statement {question} is {answer}.",
-                "Considering the details in both images, I conclude that the statement: {question} is {answer}",
-                "Utilizing the information in the image, I have ascertained that the correct answer to the statement {question} is {answer}."
-        ]}
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ad319054cd2631a5777cdadb4b821cb09050def4d63f6918f44f91175f84b70
+size 4154

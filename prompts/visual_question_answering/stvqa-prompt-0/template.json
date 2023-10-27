@@ -1,16 +1,3 @@
-{
-    "source": "stvqa",
-    "template": [
-        "Answer each question based on the information presented in image 0: <image0>图. Given the picture <image0>, what is the answer to the question: {question} Answer:",
-        "Please refer to image 0: <image0>图 when answering the following questions: {question} Answer:",
-        "Questions is related to image 0: <image0>图. Please analyze the image and provide the correct answer for the question: {question}",
-        "For each question, use the image 0: <image0>图 as a reference to answer the question: {question}",
-        "Make sure your answers are based on the information presented in the image 0: <image0>图, and any OCR text associated with it. Question:{question} Answer:",
-        "Answer the question as accurately as possible using the information provided in the image 0: <image0>图, and any OCR text associated with it. Question:{question} Answer:",
-        "Please ensure that you are answering the question based on the information presented in the image 0: <image0>图.Question:{question} Answer:",
-        "The image 0: <image0>图 is the primary source of information for answering the questions. Please refer to it carefully when answering question: {question} Answer:",
-        "Pay close attention to the details in image 0: <image0>图, as they may provide important information for answering the questions. Question:{question} Answer:",
-        "Use the image 0: <image0>图 as a visual aid to help you understand the context and answer the questions accurately. Question:{question} Answer:"
-    ]
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b2fc328fd046ae4a79b8b87f348fc710b12c1a49ed379f3b87a03a8e075f303
+size 1586

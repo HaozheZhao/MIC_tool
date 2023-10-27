@@ -1,16 +1,3 @@
-{
-    "source": "vqa",
-    "template": [
-        "image 0 is <image0>图. For the question, carefully examine the image and use your knowledge to determine the correct answer. Question: {question} Answer:",
-        "image 0 is <image0>图. Given the picture <image0>, pay attention to the wording of question and answer the following question: {question} Answer: ",
-        "Read the question carefully and look at image 0 labeled <image0>图. Use your intuition and common sense when answering the question: {question}",
-        "Answer each question based on the information presented in image 0: <image0>图. Given the picture <image0>, what is the answer to the question: {question} Answer:",
-        "Please refer to image 0: <image0>图 when answering the following questions: {question} Answer:",
-        "Questions is related to image 0: <image0>图. Please analyze the image and provide the correct answer for the question: {question}",
-        "Read the question carefully and look at image 0 labeled <image0>图. Use your intuition and common sense when answering the question: {question}",
-        "Consider all of the information in image 0 labeled <image0>图 when answering the question: {question}",
-        "Take your time when answering each question. Don't rush through the questions, and make sure you have carefully considered all of the information provided in image 0 labeled <image0>图 and the question before making your selection. Question: {question} Answer: ",
-        "Use the image 0: <image0>图 as a visual aid to help you answer the questions accurately. Question:{question} Answer:"
-       
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a62df6a25a94c256157b92f722dcd3fcffc4791069398f518638ecc403ce2aba
+size 1633

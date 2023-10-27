@@ -1,17 +1,3 @@
-{
-    "source": "vcr",
-    "template": [
-        "{prompt}. Given the options below, based on the photo <image0>, select the most suitable answer for the following question: {question}. Options: {options}",
-        "Please read the question and answer choices carefully. Select the option that best answers the question. {prompt}. Given the images, select the best option that answers the question from the available answer choices. Question: {question} Options: {options} Answer:",
-        "Choose the answer that best fits the description or action in the image. {prompt}. Consider the scene depicted in the images, choose the answer that best fits the description or action in the image from the available answer choices. Question: {question} Options: {options} Answer:",
-        "{prompt}. Examine the details in the pictures and use them to inform your answer to the question. Choose the best answer from the available options. Question: {question} Options: {options} Answer:",
-        "Look closely at the images and think about what is happening in the scene. {prompt}. Given the pictures, carefully examine the images and select the best answer that describes what is happening in the scene from the available answer choices. Question: {question} Options: {options} Answer:",
-        "Consider all of the details in the image and the wording of the question before making your selection. {prompt}. Given the pictures, consider all of the details in the image and the wording of the question before selecting the best answer choice from the available options. Question: {question} Options: {options} Answer:",
-        "Remember to use your common sense and reasoning skills to choose the best answer. {prompt}. Think about the images, use your common sense and reasoning skills to select the best answer choice from the available options. Question: {question} Options: {options} Answer:",
-        "{prompt}. Select the answer that most closely matches the description or action in images, based on the available options. Given the picture <image0>, select the answer choice that most closely matches the description or action in the image from the available options. Question: {question} Options: {options} Answer:",
-        "Choose the option that provides the most accurate and complete answer to the question, based on the available information. {prompt} Given the images, select the option that provides the most accurate and complete answer to the question from the available answer choices. Question: {question} Options: {options} Answer:",
-        "{prompt}. Use the information in the images to help you make the best choice from the available answer options for the question Question: {question} Options: {options} Answer:"
-    ]
-}
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:f1d8e693ba8adfcea62de27e0b530b52c6d0f752210bf13f704517f75717231b
+size 2750
