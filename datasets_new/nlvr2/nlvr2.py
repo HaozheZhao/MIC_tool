@@ -14,11 +14,7 @@ from os.path import join,relpath
 
 from torch.utils.data.distributed import DistributedSampler
 
-project_dir = Path(__file__).resolve().parent.parent
-workspace_dir = project_dir.parent
-dataset_dir = workspace_dir.joinpath('data/').resolve()
-nlvr_dir = dataset_dir.joinpath('nlvr2')
-nlvr_feature_dir = nlvr_dir.joinpath('features')
+
 
 
 
@@ -107,7 +103,7 @@ def get_loader(data_path, args=None, split='train', mode='train',
 
     verbose = (gpu == 0)
 
-    _dset = NLVR2Dataset(split, verbose)
+    _dset = NLVR2Dataset(data_path,split, verbose)
 
     dataset = NLVRFineTuneDataset(
         split,
@@ -164,15 +160,15 @@ class NLVR2Dataset:
         file.close()
         return papers
 
-    def __init__(self, splits: str, verbose=True):
+    def __init__(self, data_path: str,splits: str, verbose=True):
+        self.data_path = data_path
         self.name = splits
         self.splits = splits.split(',')
 
         # Loading datasets to data
         self.data = []
         for split in self.splits:
-            self.data.extend(
-                self.read_json(nlvr_dir.joinpath(f'{split}.json')))
+            self.data.extend(self.read_json(join(self.data_path,f'{split}.json')))
         if verbose:
             print("Load %d data from split(s) %s." %
                   (len(self.data), self.name))
