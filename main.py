@@ -1,10 +1,4 @@
-"""
 
-    Created on 2022/7/8
-
-    @author: Baoxiong Jia
-
-"""
 
 import argparse
 from pathlib import Path
@@ -17,10 +11,6 @@ from taskgen.collect import collect
 
 def parse_args():
     parser = argparse.ArgumentParser(description="VL-taskgen source")
-    # parser.add_argument("--cfg", default="prompts/image_generation/nyuv2-prompt-0/configs.yaml", type=str,
-    #                     help="The configuration file for taskgen aggregation. (default: prompts/image_generation/nyuv2-prompt-0/configs.yaml)")
-    # parser.add_argument("--cfg", default="prompts/image_classification/cifar-fs-prompt-0/configs.yaml", type=str,
-    #                     help="The configuration file.")
     parser.add_argument("--cfg", default="prompts/image_captioning/ln_coco-prompt-2/configs.yaml", type=str,
                         help="The configuration file.")
     args = parser.parse_args()
