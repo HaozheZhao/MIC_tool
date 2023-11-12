@@ -4,7 +4,7 @@ dataset:
   subset_size: -1
   data_path: "./data/diffusiondb"
   modalities: ["image", "text"]
-  types: ["image", "caption"]
+  types: ["image", "answer"]
   url:
     vision: "https://huggingface.co/datasets/poloclub/diffusiondb"
     language: "https://huggingface.co/datasets/poloclub/diffusiondb"
@@ -16,7 +16,7 @@ task:
   definition: ""
   path: ""
   input: ["text","image"]
-  output: ["caption"]
+  output: ["answer"]
 metadata:
   path: "./metadata/all_task.json"
 output:

@@ -2,9 +2,9 @@ dataset:
   name: "miniimage"
   prompt: 0
   subset_size: -1
-  data_path: "./data/miniimage"
+  data_path: ".data/miniimage"
   modalities: ["image", "text"]
-  types: ["image", "caption"]
+  types: ["image", "answer"]
   url:
     vision: "https://github.com/google-research/meta-dataset"
     language: "https://github.com/google-research/meta-dataset"
@@ -16,7 +16,7 @@ task:
   definition: ""
   path: "https://github.com/hushell/pmf_cvpr22"
   input: ['text',"image"]
-  output: ["caption"]
+  output: ["answer"]
 metadata:
   path: "./metadata/all_task.json"
 output:

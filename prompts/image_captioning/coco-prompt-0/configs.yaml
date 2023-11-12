@@ -4,7 +4,7 @@ dataset:
   prompt: 0
   data_path: "./data/coco"
   modalities: ["image", "text"]
-  types: ["image", "caption"]
+  types: ["image", "answer"]
   url:
     vision: "https://drive.google.com/drive/folders/1MBBhlkP83VMKS2Qe0SmFfzkHhMpIG5wf?usp=sharing"
     language: "https://drive.google.com/drive/folders/1MBBhlkP83VMKS2Qe0SmFfzkHhMpIG5wf?usp=sharing"
@@ -16,7 +16,7 @@ task:
   definition: ""
   path: "https://coco.org/"
   input: ["text", "image"]
-  output: ["caption"]
+  output: ["answer"]
 metadata:
   path: "./metadata/all_task.json"
 output:
