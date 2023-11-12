@@ -2,7 +2,7 @@ dataset:
   name: "miniimage"
   prompt: 0
   subset_size: -1
-  data_path: ".data/miniimage"
+  data_path: "./data/miniimage"
   modalities: ["image", "text"]
   types: ["image", "answer"]
   url:
