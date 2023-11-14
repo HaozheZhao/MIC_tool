@@ -12,7 +12,7 @@ class RefCOCODataset(Dataset):
     def __init__(self, root_path, split="train",dataset='refcoco', splitBy='unc', topk=-1):
         super().__init__()
         self.DATA_DIR = join(root_path, dataset)
-        self.IMAGE_DIR = join(root_path, 'train2014')
+        self.IMAGE_DIR = join("./data/coco", 'train2014')
         self.topk=topk
         ref_file = join(self.DATA_DIR, 'refs('+splitBy+').p')
         self.data = {}

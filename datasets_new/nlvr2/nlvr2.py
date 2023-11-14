@@ -78,8 +78,8 @@ class NLVRFineTuneDataset(Dataset):
             img_1 = "-".join(temp[:-1])+'-img'+temp[-1]+'.png'
         cur_img_0 = join(cur_source,img_0)
         cur_img_1 = join(cur_source,img_1)
-        # out_dict['image'] =f"{cur_img_0}###{cur_img_1}"
-        out_dict['image'] =[cur_img_0,cur_img_1]
+        out_dict['image'] =f"{cur_img_0}###{cur_img_1}"
+        # out_dict['image'] =[cur_img_0,cur_img_1]
 
         ###### Text #####
 

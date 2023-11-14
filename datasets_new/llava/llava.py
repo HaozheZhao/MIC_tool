@@ -15,7 +15,7 @@ from os.path import join,relpath
 
 from torch.utils.data.distributed import DistributedSampler
 
-IMG_PATH='./data/coco/train2014/COCO_train2014_'
+IMG_PATH='./data/coco/train2014/'
 class LLaVAFineTuneDataset(Dataset):
     def __init__(self, split='train', data_path ='./data/' ,raw_dataset=None, rank=-1, topk=-1, verbose=True, args=None, mode='train'):
         super().__init__()
@@ -62,7 +62,7 @@ class LLaVAFineTuneDataset(Dataset):
         ###### Image ######
         source = self.split
         img_path = datum['image']
-        cur_img = join(IMG_PATH,img_path)
+        cur_img = join(IMG_PATH,"COCO_train2014_"+img_path)
         conversation = datum['conversations']
         start = conversation[0]
         end = conversation[-1]
